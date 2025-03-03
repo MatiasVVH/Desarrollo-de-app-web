@@ -1,0 +1,118 @@
+
+
+/* Configuración general del cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+/* Contenedor principal que divide la pantalla en dos secciones */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+    position: absolute; /* Posiciona la imagen de manera absoluta */
+    top: 20px; /* Margen superior */
+    left: 20px; /* Margen izquierdo */
+}
+
+/* Estilos para la imagen dentro del contenedor */
+.image-container img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Estilo para ambas secciones */
+.section_1, .section_2 {
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Colores de fondo para cada sección */
+.section_1 {
+    background-color: #e3f2fd; /* Azul claro */
+}
+
+.section_2 {
+    background-color: #04dac8; /* Azul más oscuro */
+}
+
+/* Estilos generales para los inputs */
+input, .input-container input {
+    width: 42%; /* Todos los inputs tienen el mismo tamaño */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Esquinas redondeadas */
+    box-sizing: border-box; /* Evita que el padding afecte el tamaño */
+}
+
+/* Contenedor del input de clave con ícono */
+.input-container {
+    position: relative;
+    width: 42%; /* Misma anchura que otros inputs */
+}
+
+/* Estilo del input dentro del contenedor */
+.input-container input {
+    width: 100%; /* Se ajusta al contenedor */
+    padding-right: 40px; /* Espacio para el ícono */
+}
+
+/* Icono dentro del input de clave */
+.password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42%; /* Tamaño ajustable */
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Botones */
+button {
+    background-color: #04dac8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 20px; /* Botón con esquinas redondeadas */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+button:hover {
+    background-color: #04dac8;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #04dac8;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Subrayado al pasar el mouse sobre el enlace */
+a:hover {
+    text-decoration: underline;
+}
