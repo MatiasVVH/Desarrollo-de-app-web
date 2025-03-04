@@ -34,14 +34,14 @@ body {
 .header .logo {
     width: 100px;
     height: auto;
-    position: absolute; /* Posiciona el logo de manera absoluta */
-    top: 20px; /* Margen superior */
-    left: 20px; /* Margen izquierdo */
-}
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
+/* Título más pequeño */
 .header .title {
-    font-size: 24px;
+    font-size: 18px; /* Tamaño de fuente más pequeño */
     margin-bottom: 10px;
     color: #333;
 }
@@ -182,3 +182,20 @@ body {
     background-color: white;
     color: #04dac8;
 }
+
+.Consalud {
+    color: #04dac8;
+}
+
+.box big-box {
+    font-family:220px ;
+}
+
+
+
+
+.welcome-title {
+    color: #ffffff;
+    bottom: 50px;
+}
+
