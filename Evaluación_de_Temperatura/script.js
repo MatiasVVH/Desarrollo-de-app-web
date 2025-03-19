@@ -1,5 +1,5 @@
 function Producto_pares() {
-    let temperatura = 17; 
+    let  temperatura = prompt("temperatura :"); 
 
     if (temperatura < 0) {
         alert("Hace frío");
@@ -8,4 +8,4 @@ function Producto_pares() {
     } else {
         alert("Hace calor");
     }
-}
+}   
