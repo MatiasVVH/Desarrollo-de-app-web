@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+p {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+#resultado6, #resultado7, #resultado8, #resultado9, #resultado10 {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+#resultado6.error, #resultado7.error, #resultado8.error, #resultado9.error, #resultado10.error {
+    background-color: #f2dede;
+    color: #a94442;
+}
