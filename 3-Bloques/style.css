@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #a3aaa7;
+    border-radius: 4px;
+}
+
+  /* Estilo específico para el primer rectángulo */
+.b1 {
+    width: 360px; /* más ancho */
+    height: 230px; /* misma altura */
+    background-color: #8da399; /* opcional: color distinto */
+}
+
+.b6 {
+    width: 360px; /* más ancho */
+    height: 60px; /* misma altura */
+    background-color: #8da399; /* opcional: color distinto */
+}
