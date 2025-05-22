@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: #fef6ec;
+color: #333;
+line-height: 1.6;
+}
+
+header {
+background-color: #324A5E;
+padding: 40px 20px;
+text-align: center;
+color: white;
+}
+
+header h1 {
+font-size: 30px;
+}
+
+header p {
+font-size: 15px;
+}
+
+main {
+width: 1000px;
+margin: 40px auto;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+background-color: #e6761b;
+color: white;
+padding: 30px 20px;
+border-radius: 8px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.intro h2 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.tarjetas {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-between;
+}
+
+.tarjeta {
+flex: 1 1 300px;
+background-color: #d24a00;
+color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
