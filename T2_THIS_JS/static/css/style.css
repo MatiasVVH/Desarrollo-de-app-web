@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+a {
+    color: #085394;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 62.5rem; /* equivalente a 1000px */
+    width: 100%;
+}
+
+.top {
+    background-color: #ccc;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.2rem;
+}
+
+.search {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #2b78e4;
+    color: #fff;
+}
+
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* columnas principales */
+.flex-2 {
+    flex: 2;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/* caja genérica */
+.box {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px #000;
+}
+
+/* definición */
+.definition {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.definition .left h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.definition .left p {
+    margin-bottom: 5px;
+}
+
+.definition-text {
+    flex: 1;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/* botón de likes */
+.like {
+    background-color: #ffd966;
+    margin-top: 10px;
+}
+
+/* botón de agregar definición */
+.add {
+    background-color: #93c47d;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* sidebar texto */
+.flex-1 h2 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
